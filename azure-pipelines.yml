@@ -20,5 +20,5 @@ steps:
     npm run build
   displayName: 'npm install and build'
 
-  - task: WhiteSource Bolt@19
+- task: WhiteSource Bolt@19
   displayName: 'WhiteSource Bolt'
